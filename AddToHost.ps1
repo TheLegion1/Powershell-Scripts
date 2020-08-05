@@ -1,3 +1,4 @@
+# Usage: .\AddToHosts.ps1 -Hostnmame <HOSTNAME> -DesiredIP <IP>
 param([string]$DesiredIP = "IP"
     ,[string]$Hostname = "HOSTNAME"
 	,[bool]$CheckHostnameOnly = $false)
